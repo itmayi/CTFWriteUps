@@ -1,0 +1,1043 @@
+{
+    "hookConfigs": [
+        {
+            "class_name": "java.lang.reflect.Method", 
+            "method": "invoke", 
+            "thisObject": false, 
+            "type": "reflection"
+        }, 
+        {
+            "class_name": "android.telephony.SmsManager", 
+            "method": "sendTextMessage", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsManager", 
+            "method": "sendMultipartTextMessage", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getMessageBody", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsManager", 
+            "method": "sendDataMessage", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "createFromPdu", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getDisplayMessageBody", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getMessageBody", 
+            "thisObject": false, 
+            "type": "sms"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "createFromPdu", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getDisplayMessageBody", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getDisplayOriginatingAddress", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getEmailBody", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getEmailFrom", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getIndexOnIcc", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getIndexOnSim", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getMessageBody", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getOriginatingAddress", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getPdu", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getProtocolIdentifier", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getPseudoSubject", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getServiceCenterAddress", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getStatus", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getStatusOnIcc", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getStatusOnSim", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getSubmitPdu", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.telephony.SmsMessage", 
+            "method": "getUserData", 
+            "thisObject": false, 
+            "type": "telephony"
+        }, 
+        {
+            "class_name": "android.util.Base64", 
+            "method": "encode", 
+            "thisObject": false, 
+            "type": "crypto"
+        }, 
+        {
+            "class_name": "android.util.Base64", 
+            "method": "encodeToString", 
+            "thisObject": false, 
+            "type": "crypto"
+        }, 
+        {
+            "class_name": "javax.crypto.spec.SecretKeySpec", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "crypto"
+        }, 
+        {
+            "class_name": "javax.crypto.Cipher", 
+            "method": "doFinal", 
+            "thisObject": true, 
+            "type": "crypto"
+        }, 
+        {
+            "class_name": "javax.crypto.Mac", 
+            "method": "doFinal", 
+            "thisObject": false, 
+            "type": "crypto"
+        }, 
+        {
+            "class_name": "dalvik.system.BaseDexClassLoader", 
+            "method": "findResource", 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.BaseDexClassLoader", 
+            "method": "findLibrary", 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.DexFile", 
+            "method": "loadDex", 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.DexClassLoader", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.BaseDexClassLoader", 
+            "method": "findResources", 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.DexFile", 
+            "method": "loadClass", 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.DexFile", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "dalvik.system.PathClassLoader", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "dex"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getDeviceId", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getSubscriberId", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getLine1Number", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getNetworkOperator", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getNetworkOperatorName", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getSimOperatorName", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.net.wifi.WifiInfo", 
+            "method": "getMacAddress", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getSimCountryIso", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getSimSerialNumber", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getNetworkCountryIso", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.telephony.TelephonyManager", 
+            "method": "getDeviceSoftwareVersion", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "android.os.Debug", 
+            "method": "isDebuggerConnected", 
+            "thisObject": false, 
+            "type": "fingerprint"
+        }, 
+        {
+            "class_name": "java.util.Properties", 
+            "method": "put", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "javax.mail.Transport", 
+            "method": "send", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "javax.mail.Transport", 
+            "method": "sendMessage", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "javax.mail.Transport", 
+            "method": "connect", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "javax.mail.internet.InternetAddress", 
+            "method": "init", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "hasExtra", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "parseUri", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "putExtra", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "setAction", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "setClass", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "setClassName", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.Intent", 
+            "method": "setData", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "java.net.URI", 
+            "method": "parse", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "query", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "delete", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "query", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "delete", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "acquireContentProviderClient", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "acquireUnstableContentProviderClient", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "addPeriodicSync", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.content.ContentResolver", 
+            "method": "applyBatch", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.database.sqlite.SQLiteCursor", 
+            "method": "getDatabase", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "open", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.app.SharedPreferencesImpl$EditorImpl", 
+            "method": "putString", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.app.SharedPreferencesImpl$EditorImpl", 
+            "method": "putBoolean", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.app.SharedPreferencesImpl$EditorImpl", 
+            "method": "putInt", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.app.SharedPreferencesImpl$EditorImpl", 
+            "method": "putLong", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.app.SharedPreferencesImpl$EditorImpl", 
+            "method": "putFloat", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.content.ContentValues", 
+            "method": "put", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.content.SharedPreferences.Editor", 
+            "method": "remove", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "createNewFile", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "createTempFile", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "delete", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "list", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "listFiles", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "listRoots", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.io.File", 
+            "method": "renameTo", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.content.ContextWrapper", 
+            "method": "deleteFile", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.content.ContextWrapper", 
+            "method": "fileList", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.net.URI.HierachicalURI", 
+            "method": "create", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "android.net.URI.HierachicalURI", 
+            "method": "resolve", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.net.URI", 
+            "method": "create", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.net.URI", 
+            "method": "resolve", 
+            "thisObject": false, 
+            "type": "file"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "javax.net.ssl.SSLContext", 
+            "method": "init", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "getDefault", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "createSocket", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "getHttpSocketFactory", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "getNpnSelectedProtocol", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "setHostname", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "setKeyManager", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "setNpnProtocols", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "setTrustManagers", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.net.SSLCertificateSocketFactory", 
+            "method": "setUseSessionTickets", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.ServerSocket", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.ServerSocket", 
+            "method": "accept", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.ServerSocket", 
+            "method": "bind", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.Proxy", 
+            "method": "Proxy", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.Socket", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.Socket", 
+            "method": "bind", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.Socket", 
+            "method": "connect", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "org.apache.http.client.methods.HttpGet", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "org.apache.http.client.methods.HttpGet", 
+            "method": "getMethod", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "org.apache.http.client.methods.HttpGet", 
+            "method": "getURI", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "org.apache.http.impl.client.AbstractHttpClient", 
+            "method": "execute", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "connect", 
+            "thisObject": true, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "getContent", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "getURL", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "setRequestProperty", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "getInputStream", 
+            "thisObject": true, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "getOutputStream", 
+            "thisObject": true, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.HttpURLConnection", 
+            "method": "getResponseCode", 
+            "thisObject": true, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": null, 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "getAuthority", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "getContent", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "getDefaultPort", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "getHost", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "getPort", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "openConnection", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "java.net.URL", 
+            "method": "toURI", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "recvfrom", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "sendto", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "connectErrno", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "connect", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "libcore.io.IoBridge", 
+            "method": "bind", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "addJavascriptInterface", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "capturePicture", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "clearSslPreferences", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "evaluateJavascript", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "findAddress", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "loadData", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "loadDataWithBaseURL", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "loadUrl", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "postUrl", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "setCertificate", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.webkit.WebView", 
+            "method": "setHttpAuthUsernamePassword", 
+            "thisObject": false, 
+            "type": "network"
+        }, 
+        {
+            "class_name": "android.app.ApplicationPackageManager", 
+            "method": "getInstalledPackages", 
+            "thisObject": false, 
+            "type": "content"
+        }, 
+        {
+            "class_name": "android.app.ActivityManager", 
+            "method": "killBackgroundProcesses", 
+            "thisObject": false, 
+            "type": "runtime"
+        }, 
+        {
+            "class_name": "android.os.Process", 
+            "method": "killProcess", 
+            "thisObject": false, 
+            "type": "runtime"
+        }, 
+        {
+            "class_name": "java.lang.Runtime", 
+            "method": "exec", 
+            "thisObject": false, 
+            "type": "runtime"
+        }, 
+        {
+            "class_name": "java.lang.ProcessBuilder", 
+            "method": "start", 
+            "thisObject": true, 
+            "type": "runtime"
+        }, 
+        {
+            "class_name": "java.lang.reflect.Method", 
+            "method": "invoke", 
+            "thisObject": false, 
+            "type": "reflection"
+        }, 
+        {
+            "class_name": "android.app.ApplicationPackageManager", 
+            "method": "setComponentEnabledSetting", 
+            "thisObject": false, 
+            "type": "generic"
+        }, 
+        {
+            "class_name": "android.app.admin.DevicePolicyManager", 
+            "method": "isAdminActive", 
+            "thisObject": false, 
+            "type": "generic"
+        }, 
+        {
+            "class_name": "android.app.admin.DeviceAdminReceiver", 
+            "method": "onReceive", 
+            "thisObject": false, 
+            "type": "generic"
+        }, 
+        {
+            "class_name": "android.content.ContextWrapper", 
+            "method": "sendBroadcast", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.app.ActivityManager", 
+            "method": "getRunningAppProcesses", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "android.app.ActivityManager", 
+            "method": "getRunningServiceControlPanel", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "android.app.ActivityManager", 
+            "method": "getRunningServices", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "android.app.ActivityManager", 
+            "method": "getRunningTasks", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "android.net.ConnectivityManager", 
+            "method": "getNetworkInfo", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "com.android.server.pm.PackageManagerService", 
+            "method": "installPackageWithVerificationAndEncryption", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "com.android.server.pm.PackageManagerService", 
+            "method": "installPackageLI", 
+            "thisObject": false, 
+            "type": "system"
+        }, 
+        {
+            "class_name": "android.content.ContextWrapper", 
+            "method": "startActivity", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "android.content.BroadcastReceiver", 
+            "method": "onReceive", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "java.lang.Thread", 
+            "method": "start", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "java.util.zip.ZipFile", 
+            "method": "getInputStream", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "java.util.zip.ZipFile", 
+            "method": "entries", 
+            "thisObject": false, 
+            "type": "binder"
+        }, 
+        {
+            "class_name": "java.util.zip.ZipFile",
+            "method": "getEntry", 
+            "thisObject": false, 
+            "type": "binder"
+        }
+    ], 
+    "trace": false
+}
