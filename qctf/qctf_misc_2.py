@@ -8,8 +8,8 @@ grid = "lovekfc" + "abdghijmnpqrstuwxyz"
 
 flag = ''
 
-print string.ascii_uppercase
-print string.ascii_lowercase
+print (string.ascii_uppercase)
+print (string.ascii_lowercase)
 
 for i in enc:
     if i in string.ascii_lowercase:  # abcdefghijklmnopqrstuvwxyz
@@ -22,4 +22,4 @@ for i in enc:
         continue
     flag += i
 
-print flag
+print (flag)

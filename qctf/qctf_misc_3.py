@@ -393,7 +393,7 @@ def desencode(from_code, key):
     string_len = len(from_code)
 
     if string_len < 1 or key_len < 1:
-        print 'error input'
+        print ('error input')
 
         return False
 
@@ -417,8 +417,8 @@ if __name__ == '__main__':
     if (desencode(sys.argv[1],
                   'mtqVwD4JNRjw3bkT9sQ0RYcZaKShU4sf') == 'e3fab29a43a70ca72162a132df6ab532535278834e11e6706c61a1a7cefc402c8ecaf601d00eee72'):
 
-        print 'correct.'
+        print ('correct.')
 
     else:
 
-        print 'try again.'
+        print ('try again.')
