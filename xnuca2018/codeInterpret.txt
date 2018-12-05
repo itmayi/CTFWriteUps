@@ -1,0 +1,43 @@
+09 04 04        xor r4,r4; 	        r4置0                         09:xor r4,r4  # r4 = ecx
+09 00 00        xor r0,r0;          r0置0                            xor r0,r0  # r0 = edx
+08 01 00        mov r1,ebp[0];      r1=ebp[0]                     08:mov r1,ebp[0] # r1 = eax
+08 02 01        mov r2,ebp[1];      r2=ebp[1]                        mov r2,ebp[1] # r2 = ebx
+08 03 02        mov r3,ebp[2];      r3=ebp[2]                        mov r3,ebp[2] # r
+06 01 04        shr r1 4;           r1 >> 4
+05 01 15        mul r1 0x15;        r1*=0x15
+07 00 01        mov r0,r1;          r0=r1
+04 00 03        sub r0,r3;          r0=r0-r3
+01 6B CC 7E 1D  push 0x1d7ecc6b;    dword_6024BB++; ebp[3] = 0x1d7ecc6b
+08 01 03        mov r1 ebp[3];      r1=ebp[3]
+04 00 01        sub r0,r1;          r0=r0-r1
+02              pop;                --dword_6024BB
+0A 04 00        or r4 r0;           r4=r4|r0
+09 00 00        xor r0 r0;          r0置0
+08 01 00        mov r1,ebp[0];      r1=ebp[0] 
+08 02 01        mov r2,ebp[1];      r2=ebp[1]
+08 03 02        mov r3,ebp[2];      r3=ebp[2]
+06 03 08        shr r3 8;           r3 >> 8
+05 03 03        mul r3 3;           r3*=3
+07 00 03        mov r0 r3;          r0=r3
+03 00 02        add r0 r2;          r0=r0+r2
+01 7c 79 79 60  push 0x6079797c;    dword_6024BB++; ebp[3]=0x6079797c
+08 01 03        mov r1 ebp[3];      r1=ebp[3]
+04 00 01        sub r0 r1;          r0=r0-r1
+02              pop;                --dword_6024BB
+0A 04 00        or r4 r0;           r4=r4|r0
+09 00 00        xor r0 r0;          r0置0
+08 01 00        mov r1 ebp[0];      r1=ebp[0]
+08 02 01        mov r2 ebp[1];      r2=ebp[1]
+08 03 02        mov r3 ebp[2];      r3=ebp[2]
+06 01 08        shr r1 8;           r1 >> 8
+07 00 01        mov r0,r1;          r0=r1
+03 00 02        add r0,r2;          r0=r0+r2
+01 bd bd bc 5f  push 0x5fbcbdbd;    ++dword_6024BB; ebp[3]=0x5fbcbdbd
+08 01 03        mov r1 ebp[3];      r1=ebp[3]
+04 00 01        sub r0,r1;          r0 = r0- r1
+02              pop;                --dword_6024BB
+0A 04 00        or r4 r0;           r4=r4|r0
+00              exit;
+
+
+

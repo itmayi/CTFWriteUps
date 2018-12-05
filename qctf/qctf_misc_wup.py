@@ -319,5 +319,5 @@ if __name__ == '__main__':
     # k = raw_input("请输入密钥（长度不限）:")
     from_code = 'e3fab29a43a70ca72162a132df6ab532535278834e11e6706c61a1a7cefc402c8ecaf601d00eee72'
     key = 'mtqVwD4JNRjw3bkT9sQ0RYcZaKShU4sf'
-    print desdecode(from_code, key)
+    print (desdecode(from_code, key))
     # k = raw_input("按确定退出")

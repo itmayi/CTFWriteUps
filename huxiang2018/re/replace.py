@@ -44,4 +44,4 @@ for i in range(0,len(data),2):
     index = int(data[i:i+2],16)^0x19
     t = table.index(index)
     flag += chr(t)
-print flag
+print (flag)
